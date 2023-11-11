@@ -305,8 +305,7 @@ span {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 .1rem;
-    padding-top: 3rem;
+    padding: 0 4rem;
     transform: translateY(100%);
     transition: .5s ease;
 }
@@ -316,11 +315,11 @@ span {
 }
 
 .portfolio h4 {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .portfolio-layer p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: .3rem 0 1rem;
 }
 
@@ -328,14 +327,14 @@ span {
     display: inline-flex;
     justify-content:  center;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
+    width: 3rem;
+    height: 3rem;
     background: var(--text-color);
     border-radius: 50%;
 }
 
 .portfolio-layer a i {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--second-bg-color);
 }
 
@@ -500,7 +499,7 @@ span {
     }
 
     .home {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
     }
 
@@ -547,12 +546,34 @@ span {
 
     .portfolio-box {
         width: 100%;
+        position: relative;
     }
 
     .portfolio-layer {
         padding: 1rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
     }
-    /* Add more adjustments as needed */
+
+    .portfolio-layer h4 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .portfolio-layer p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .portfolio-layer a {
+        font-size: 0.8rem !important; /* Adjust the font size as needed */
+        padding: 0.2rem 0.5rem !important; /* Adjust the padding as needed */
+    }
+
 }
 
 
