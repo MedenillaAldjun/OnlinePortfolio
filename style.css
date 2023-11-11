@@ -538,29 +538,25 @@ span {
     }
 
     .portfolio-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: block;
         text-align: center;
         padding: 2rem;
     }
 
     .portfolio-box {
         width: 100%;
-        position: relative;
+        margin-bottom: 1rem;
     }
 
     .portfolio-layer {
         padding: 1rem;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
+        position: relative;
         background-color: rgba(0, 0, 0, 0.7);
         color: white;
     }
 
     .portfolio-layer h4 {
-        font-size: 1.5rem;
+        font-size: 3rem;
         margin-bottom: 0.5rem;
     }
 
@@ -570,8 +566,8 @@ span {
     }
 
     .portfolio-layer a {
-        font-size: 0.8rem !important; /* Adjust the font size as needed */
-        padding: 0.2rem 0.5rem !important; /* Adjust the padding as needed */
+        font-size: 0.8rem; /* Adjust the font size as needed */
+        padding: 0.2rem 0.5rem; /* Adjust the padding as needed */
     }
 
 }
