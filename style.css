@@ -506,6 +506,7 @@ span {
     .home-img {
         margin-top: 5rem;
         margin-bottom: 1rem; 
+        align-items: center;
     }
 
     .home-content {
